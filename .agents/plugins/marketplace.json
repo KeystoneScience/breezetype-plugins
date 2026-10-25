@@ -1,0 +1,20 @@
+{
+  "name": "breezetype",
+  "interface": {
+    "displayName": "BreezeType"
+  },
+  "plugins": [
+    {
+      "name": "breezetype",
+      "source": {
+        "source": "local",
+        "path": "./plugins/breezetype"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

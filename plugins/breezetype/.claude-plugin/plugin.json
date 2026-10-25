@@ -1,0 +1,16 @@
+{
+  "name": "breezetype",
+  "displayName": "BreezeType",
+  "version": "0.1.0",
+  "description": "Search your BreezeType dictations, meetings and Ambient Notes from Claude. Runs on your Mac through BreezeType's local MCP server.",
+  "author": {
+    "name": "BreezeType",
+    "url": "https://breezetype.com"
+  },
+  "homepage": "https://breezetype.com",
+  "repository": "https://github.com/KeystoneScience/breezetype-plugins",
+  "license": "MIT",
+  "keywords": ["breezetype", "dictation", "meetings", "transcripts", "mcp", "macos"],
+  "icon": "./assets/icon.png",
+  "privacyPolicyUrl": "https://breezetype.com/legal/privacy-policy"
+}

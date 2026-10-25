@@ -1,0 +1,35 @@
+{
+  "name": "breezetype",
+  "version": "0.1.0",
+  "description": "Search your BreezeType dictations, meetings and Ambient Notes from ChatGPT and Codex. Runs on your Mac through BreezeType's local MCP server.",
+  "author": {
+    "name": "BreezeType",
+    "url": "https://breezetype.com"
+  },
+  "homepage": "https://breezetype.com",
+  "repository": "https://github.com/KeystoneScience/breezetype-plugins",
+  "license": "MIT",
+  "keywords": ["breezetype", "dictation", "meetings", "transcripts", "mcp", "macos"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "BreezeType",
+    "shortDescription": "Search your dictations and meetings",
+    "longDescription": "Search what you dictated with BreezeType, your meeting notes, summaries and transcripts, and Ambient Notes, all read locally on this Mac. You can also ask for a meeting note or summary, which BreezeType shows for your approval before anything changes. Requires the BreezeType Mac app.",
+    "developerName": "BreezeType",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read"],
+    "websiteURL": "https://breezetype.com",
+    "privacyPolicyURL": "https://breezetype.com/legal/privacy-policy",
+    "defaultPrompt": [
+      "What did we decide in my last meeting?",
+      "Find what I dictated about the launch plan this week",
+      "Summarize my meetings from today",
+      "Search my Ambient Notes for anything about the budget"
+    ],
+    "brandColor": "#2563EB",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png",
+    "screenshots": []
+  }
+}

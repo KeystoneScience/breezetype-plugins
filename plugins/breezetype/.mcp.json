@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "breezetype": {
+      "type": "stdio",
+      "command": "/bin/sh",
+      "args": [
+        "-c",
+        "for app in /Applications/BreezeType.app \"$HOME/Applications/BreezeType.app\" \"$(/usr/bin/mdfind \"kMDItemCFBundleIdentifier == 'com.pais.breeze.dev'\" 2>/dev/null | /usr/bin/head -n 1)\"; do launcher=\"$app/Contents/Resources/resources/scripts/mcp/breeze-mcp\"; if [ -x \"$launcher\" ]; then exec \"$launcher\"; fi; done; echo 'BreezeType is not installed. Get it at https://breezetype.com, open it once, then restart this app.' >&2; exit 1"
+      ]
+    }
+  }
+}
