@@ -1,6 +1,6 @@
 {
   "name": "breezetype",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Search your BreezeType dictations, meetings and Ambient Notes from ChatGPT and Codex. Runs on your Mac through BreezeType's local MCP server.",
   "author": {
     "name": "BreezeType",

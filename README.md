@@ -14,7 +14,7 @@ The plugin connects your AI app to the MCP server built into the BreezeType Mac 
 
 It can't delete anything, publish anything, or apply its own suggestions.
 
-You choose whether agents can read meetings and Ambient Notes on BreezeType's **Agents** page (BreezeType 0.1.14 or later). Meetings are on by default and Ambient Notes are off.
+You choose what agents can read on BreezeType's **Agents** page (BreezeType 0.1.13 or later): dictation history, clipboard history, meetings and Ambient Notes. Ambient Notes are off by default; the others are on.
 
 ## Requirements
 
@@ -22,7 +22,7 @@ You choose whether agents can read meetings and Ambient Notes on BreezeType's **
 
 ## Easiest: connect from BreezeType
 
-In BreezeType 0.1.14 or later, open **Agents** in the sidebar and click **Connect** next to Claude or ChatGPT. Then quit and reopen that app.
+In BreezeType 0.1.13 or later, open **Agents** in the sidebar and click **Connect** next to Claude or ChatGPT. Then quit and reopen that app.
 
 For Claude Code, click **Copy prompt** and paste it into Claude Code.
 
@@ -66,7 +66,7 @@ Add a local (stdio) server named `breezetype` that runs BreezeType's launcher wi
 ## Troubleshooting
 
 - **"BreezeType is not installed":** the plugin looks for BreezeType in `/Applications`, then in `~/Applications`, then anywhere Spotlight can find it. Install BreezeType, open it once, then restart your AI app.
-- **A tool says access is off:** turn on Meetings or Ambient Notes on BreezeType's Agents page.
+- **A tool says access is off:** turn that source on (Dictation history, Clipboard history, Meetings or Ambient Notes) on BreezeType's Agents page.
 - **Results look out of date:** the clipboard tools only see items copied while BreezeType was running.
 
 ## What's in this repository
